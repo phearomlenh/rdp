@@ -5,7 +5,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" 
 curl -O https://raw.githubusercontent.com/vongocbao/WindowsRDP/main/DisablePasswordComplexity.ps1 > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\Fast Config VPS.exe" https://raw.githubusercontent.com/vongocbao/WindowsRDP/main/FastConfigVPS_v5.1.exe > out.txt 2>&1
 curl -o "C:\Users\Public\Desktop\EVKey Vietnamese Keyboard.exe" https://raw.githubusercontent.com/vongocbao/WindowsRDP/main/EVKey64.exe > out.txt 2>&1
-net user administrator Nagato /add >nul
+net user administrator Nagato@123 /add >nul
 net localgroup administrators administrator /add >nul
 net user administrator /active:yes >nul
 diskperf -Y >nul
